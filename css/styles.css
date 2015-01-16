@@ -1,54 +1,49 @@
-article{
-    width:80%;
- 
+body{ 
+	background: url("../img/subtle.png");
+	font-family: 'Lato' sans-serif;
+	
+	
 }
+/* Navigation*/ 
 
-body{
- background: lightblue; 
-  width:80%;
-} 
-
-
-h1{
-  color: gray;
-}
-
-header{
-  background: white;
-  width:80%;
-}
-li{
-  display:inline-block;
-  font-size: 2em;
-  padding:.2em;
-  margin:0 auto; 
-}
-a:active, a:visited{
-  
+a{
+	margin-left:1%;
+	font-size: 1em;
+    color:#0E147F; 
     text-decoration: none;
 }
-a{
-  color:gray;
-  text-decoration: none;
-  
+img{
+	width:18em;
+	padding:2em;
+	float:left;
+}
+/*containter*/ 
+
+h1{
+	margin-left:1%;
+	color:#042658;
+}
+
+h3{
+	margin-left:1%;
+	font-size: 1.17em;
+	color: #0267A7 
+}
+
+p{
+	width:50%;
+}
+
+article, footer{
+	margin-left:1%;
+	padding:1em;
+	text-align: left;
 }
 
 footer{
-  background: white;
-  width:80%; 
+	border-top: 2px solid #0267A7;
 }
 
-section{
-  display: inline-block;
-}
-
-.left{
-  width:40%;
-  margin:.5em;
-}
-
-.right{
-  width:40%;
-  margin:.5em;
- 
+.fix{
+	margin-left:10%;
 }
